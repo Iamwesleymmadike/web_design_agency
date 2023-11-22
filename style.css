@@ -20,6 +20,14 @@ h1 {
   font-size: 5rem;
 }
 
+#c{
+  transition-duration: 0.2s;
+}
+#c:hover{
+  font-size: 1.1em;
+  transition-duration: 0.2s;
+}
+
 #mission{
   color: #191970;
   font-size: 4rem;
@@ -79,7 +87,7 @@ hr{
 
   h1{
     margin: 0px;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     text-align: center;
   }
 
@@ -94,5 +102,9 @@ hr{
     margin-bottom: 10px;
     object-fit: cover;
     display: inline;
+  }
+
+  body{
+    font-size: 0.85em;
   }
 }
